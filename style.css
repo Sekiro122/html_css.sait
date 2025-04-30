@@ -1,0 +1,401 @@
+body{
+    display: flex;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    flex-direction: column;
+    background: rgb(119, 119, 119);
+}
+header{
+    display: flex;
+    width: 100%;
+    background: rgb(172, 172, 172);
+    height: 65px;
+    align-items: center;
+    padding-left: 0.7%;
+    padding-right: 1.5%;
+}
+footer{
+    margin-top: 0.7%;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background: rgb(172, 172, 172);
+    height: 2%;
+    align-items: center;
+    justify-content: center;
+}
+footer img{
+    margin-left: 5%;
+}
+footer h3{
+    margin-left: 5%;
+}
+.btnsHeadIcon{
+    display: flex;
+    border-radius: 50%;
+    width: 22px;
+    height: 22px;
+    background: rgb(248, 113, 2);
+    cursor: pointer;
+    border: 3px solid rgb(71, 35, 6);
+}
+.btnHead{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: rgb(150, 147, 142);
+    margin-left: 0.6%;
+    margin-top: 0.3%;
+    width: 7%;
+    height: 92%;
+    font-size: 145%;
+    font-weight: 550;
+    border-top-right-radius: 30%;
+    border-top-left-radius: 30%;
+    cursor: pointer;
+}
+.btnHead.hover{
+    height: 95%;
+    background: rgb(165, 158, 158);
+    color: rgb(46, 46, 46);
+    font-size: 155%;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.btnHead.active{
+    background: rgb(119, 119, 119);
+    box-shadow: 2px -1px 1px 1px rgba(46, 46, 46, 0.699);
+}
+input{
+    font-size: 100%;
+    padding-left: 1%;
+    border: 0;
+    border-radius: 12px;
+    width: 22.5%;
+    height: 45%;
+    background: rgb(218, 218, 218);
+    margin-left: 50%;
+}
+.btnBurger{
+    display: none;
+    background: rgb(122, 121, 118);
+    height: 76%;
+    width: 10%;
+    border-radius: 12px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.btnBurger:hover{
+    background: rgb(146, 145, 141);
+    border: 2px solid black;
+}
+.line{
+    margin-top: 3px;
+    margin-bottom: 3px;
+    width: 70%;
+    height: 8%;
+    border-radius: 30px;
+    background: black;
+}
+.menuBurger{
+    display: none;
+    background: rgb(172, 172, 172);
+    opacity: 0;
+    transition: opacity 1s ease; 
+}
+.btnMenu{
+    font-size: 120%;
+    cursor: pointer;
+}
+.to {
+    opacity: 1; 
+}
+main{
+    width: 100%;
+    display: flex;
+}
+.HeadBlock{
+    margin-top: 2%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.Teoria{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+.TeoriaThree{
+    margin-top: 2%;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+.TeoriaFour{
+    margin-top: 0.2%;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+.MarginImg{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.MarginImg img{
+    width: 49%;
+    margin-right: 1%;
+}
+.MarginImgIcon{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.MarginImgIcon img{
+    width: 49%;
+}
+.textTeoria{
+    box-shadow: 3px -1px 2px 2px rgba(46, 46, 46, 0.699);
+    margin-left: 2%;
+    font-size: 140%;
+    height: auto;
+    border-radius: 10px;
+    width: 70%;
+    background: rgb(179, 179, 179);
+    padding: 1%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.textTeoriaSection{
+    margin-bottom: 2%;
+    box-shadow: 3px -1px 2px 2px rgba(46, 46, 46, 0.699);
+    margin-left: 2%;
+    font-size: 140%;
+    height: auto;
+    border-radius: 10px;
+    width: 94%;
+    background: rgb(179, 179, 179);
+    padding: 1%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.textTeoriaTwo{
+    box-shadow: 3px -1px 2px 2px rgba(46, 46, 46, 0.699);
+    margin-left: 2%;
+    font-size: 140%;
+    height: auto;
+    border-radius: 10px;
+    width: 47.5%;
+    background: rgb(179, 179, 179);
+    padding: 1%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.textTeoriaTwoTwo{
+    box-shadow: 3px -1px 2px 2px rgba(46, 46, 46, 0.699);
+    margin-left: 2%;
+    font-size: 140%;
+    height: auto;
+    border-radius: 10px;
+    width: 109%;
+    height: 48%;
+    background: rgb(179, 179, 179);
+    padding: 2.5%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.textTeoriaTwoTwoTwo{
+    box-shadow: 3px -1px 2px 2px rgba(46, 46, 46, 0.699);
+    margin-left: 2%;
+    font-size: 140%;
+    height: auto;
+    border-radius: 10px;
+    width: 109%;
+    height: 68%;
+    background: rgb(179, 179, 179);
+    padding: 2.5%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.imgHtml{
+    display: flex;
+    width: 25%;
+    height: 100%;
+}
+.TeoriaTwo{
+    display: flex;
+    width: 100%;
+    margin-top: 1%;
+}
+.rowTeoriaTwo{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+.textTeoriaTwoThree{
+    box-shadow: 3px -1px 2px 2px rgba(46, 46, 46, 0.699);
+    margin-top: 2.5%;
+    margin-left: 2%;
+    font-size: 113%;
+    height: auto;
+    border-radius: 10px;
+    width: 109%;
+    /* height: 44%; */
+    background: rgb(179, 179, 179);
+    padding: 2.5%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.SectionBlock{
+    margin-top: 2%;
+    width: 100%;
+    display: none;
+    flex-direction: column;
+}
+.allBlock{
+    margin-top: 2%;
+    width: 100%;
+    display: none;
+    flex-direction: column;
+}
+.blockAnim{
+    width: 100%;
+    margin-top: 25%;
+    margin-left: 40%;
+}
+
+
+.dragon {
+    width: 200px; 
+    height: 200px; 
+    background-image: url('https://cdn-icons-png.flaticon.com/128/2470/2470036.png'); 
+    background-size: cover;
+    position: absolute;
+    animation: fly 5s linear infinite; 
+}
+
+@keyframes fly {
+    0% {
+        transform: translate(0, 0) rotate(0deg);
+    }
+    25% {
+        transform: translate(200px, -100px) rotate(90deg);
+    }
+    50% {
+        transform: translate(0, -200px) rotate(180deg);
+    }
+    75% {
+        transform: translate(-200px, -100px) rotate(270deg);
+    }
+    100% {
+        transform: translate(0, 0) rotate(360deg);
+    }
+}
+
+@media (max-width: 1600px){
+    .textTeoriaTwoThree{
+        font-size: 98%;
+    }
+    .textTeoriaTwoTwoTwo{
+        font-size: 100%;
+    }
+    .textTeoriaTwoTwo{
+        font-size: 100%;
+    }
+    .textTeoriaTwo{
+        font-size: 113%;
+    }
+    .textTeoria{
+        width: 75%;
+        font-size: 120%;
+    }
+    .textTeoriaSection{
+        font-size: 120%;
+    }
+    .imgHtml{
+        margin-left: 1%;
+        margin-top: 6%;
+        width: 23%;
+        height: 65%;
+    }
+    header{
+        height: 58px;
+    }
+    .btnHead{
+        font-size: 128%;
+        width: 10%;
+    }
+    .btnHead:hover{
+        font-size: 135%;
+    }
+    .btnsHeadIcon{
+        width: 23px;
+    }
+    input{
+        height: 48%;
+        width: 32.5%;
+        margin-left: 30%;
+    }
+}
+@media (max-width: 1000px){
+    .dragon{
+        width: 100px;
+        height: 100px;
+    }
+    .textTeoriaTwo{
+        width: 94%;
+        margin-bottom: 3%;
+    }
+    .textTeoriaTwoTwoTwo{
+        margin-left: 4.5%;
+        width: 235.5%;
+        margin-bottom: 5%;
+    }
+    .textTeoriaTwoTwo{
+        margin-left: 4.5%;
+        width: 235.5%;
+        margin-bottom: 5%;
+    }
+    .textTeoriaTwoThree{
+        font-size: 89%;
+        margin-left: 4.5%;
+        width: 235.5%;
+        margin-bottom: 8.5%;
+    }
+    .TeoriaTwo{
+        flex-direction: column;
+    }
+    .Teoria{
+        flex-direction: column;
+    }
+    .TeoriaThree{
+        flex-direction: column;
+    }
+    .textTeoria{
+        width: 94%;
+        font-size: 110%;
+    }
+    .textTeoriaSection{
+        font-size: 110%;
+    }
+    .textTeoriaSection img{
+        width: 100%;
+    }
+    .imgHtml{
+        margin-left: 20%;
+        margin-top: 2%;
+        width: 60%;
+        height: 100%;
+    }
+    .btnHead{
+        display: none;
+    }
+    .btnsHeadIcon{
+        display: none !important;
+    }
+    .btnBurger{
+        display: flex;
+    }
+    input{
+        margin-left: 5%;
+        width: 80%;
+        height: 55%;
+    }
+}
